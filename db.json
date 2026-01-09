@@ -1,5 +1,5 @@
 {
-  "task": [
+  "tasks": [
     {
       "id": "1",
       "text": "doctors appoinment",
@@ -17,6 +17,12 @@
       "text": "doctors appoinment",
       "day": "may 12th & 12:00 pm",
       "reminder": false
+    },
+    {
+      "id": "ec29",
+      "text": "new task",
+      "day": "april 7th at 7.00 am",
+      "reminder": true
     }
   ]
 }

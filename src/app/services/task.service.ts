@@ -15,7 +15,7 @@ const httpOptions={
 
 export class TaskService {
         // tasks: Task[]=TASKS;
-       private apiUrl = 'http://localhost:5000/task';
+       private apiUrl = 'http://localhost:5000/tasks';
 
   constructor(private http:HttpClient) { }
 
