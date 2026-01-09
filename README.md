@@ -16,8 +16,12 @@ Angular CLI
 npm install -g @angular/cli
 
 ##Start Backend Server
+
   npm run server
+
+  
 ##Running the Frontend (Angular)
+
   npm start
 ## Development server
 
