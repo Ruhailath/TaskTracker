@@ -1,7 +1,24 @@
 # TaskTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+This is a Task Tracker web application developed using Angular for the frontend and JSON Server (db.json) as a mock backend.
+The application allows users to add, view, update, and delete tasks using RESTful API calls.
 
+#Prerequisites
+Make sure the following are installed on your system:
+
+Node.js (v16 or above recommended)
+
+npm (comes with Node.js)
+
+Angular CLI
+
+npm install -g @angular/cli
+
+##Start Backend Server
+  npm run server
+##Running the Frontend (Angular)
+  npm start
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
