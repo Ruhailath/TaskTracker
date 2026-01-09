@@ -23,6 +23,29 @@ npm install -g @angular/cli
 ##Running the Frontend (Angular)
 
   npm start
+
+**Application Functionalities**
+  1.Add Task (Toggle Form)
+    An Add Task button is provided in the header.
+    Clicking the button toggles (opens/closes) the task input form.
+    This allows users to add new tasks without navigating away from the page.
+ 2.Mark Task as Completed
+   Tasks can be marked as completed by double-clicking on the task.
+   Completed tasks are visually highlighted with a green marker / border.
+   This provides a clear visual distinction between completed and pending tasks.
+3.Delete Task
+  Each task has a delete (❌ cross) button.
+  Clicking the button removes the task permanently from the list.
+  The deletion is reflected immediately in both the UI and the backend (db.json).
+**Real-Time UI Update**
+   All operations (add, update, delete) update the UI without page refresh.
+   Angular’s data binding ensures smooth user interaction.
+**About Page Navigation**
+   The application includes an About page.
+   Navigation is implemented using Angular Router.
+   Users can navigate between:
+    Home (Task List)
+    About Page
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
